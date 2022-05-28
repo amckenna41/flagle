@@ -1,0 +1,67 @@
+/* *, *:after, *:before {
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  :root {
+    /** sunny side **/
+    --blue-background: #a8e5fa;
+    --blue-border: #4cd3f5;
+    --blue-color: #96dcee;
+    --yellow-background: #fffaa8;
+    --yellow-border: #f5eb71;
+    /** dark side **/
+    --indigo-background: #808fc7;
+    --indigo-border: #5d6baa;
+    --indigo-color: #6b7abb;
+    --gray-border: #e8e8ea;
+    --gray-dots: #e8e8ea;
+    /** general **/
+    --white: #fff;
+  }
+  
+  input[type=checkbox] {
+    /* visibility: hidden; */
+    
+  }
+
+  input[type=checkbox]:checked + label {
+    transform: rotate(360deg);
+    background-color: rgb(139, 75, 190);
+    
+  }
+  
+
+  label {
+    display: flex;
+    width: 75px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 99em;
+    position: relative;
+    transition: transform 0.75s ease-in-out;
+    transform-origin: 50% 50%;
+    cursor: pointer;
+    background-color: rgb(109, 166, 212);
+    
+  }
+
+  label:before {
+    transition: transform 0.75s ease;
+    transition-delay: 0.5s;
+    content: "";
+    /* display: block; */
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-color: #000;
+    border-radius: 50%;
+    top: 1px;
+    left: 4px;
+  }

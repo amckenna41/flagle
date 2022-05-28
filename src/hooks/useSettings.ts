@@ -1,4 +1,16 @@
 import { useCallback, useState } from "react";
+import { createContext } from "react";
+
+// export const themes = {
+//   dark: "",
+//   light: "white-content",
+// };
+
+// export const ThemeContext = createContext({
+//   theme: themes.dark,
+// changeTheme: () => {},
+// });
+
 
 export interface SettingsData {
   noImageMode: boolean;

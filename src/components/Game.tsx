@@ -100,6 +100,8 @@ export function Game({ settingsData }: GameProps) {
         autoClose: false,
         delay: 2000,
       });
+      let audio = new Audio("sounds/failure.mp3");
+      audio.play();
     }
   }, [country, guesses, i18n.resolvedLanguage]);
 
@@ -118,7 +120,7 @@ export function Game({ settingsData }: GameProps) {
         </button>
       )}
       <div className="my-1">
-        <img
+        <img id="flagleImage"
           className={`max-h-52 m-auto transition-transform duration-700 ease-in dark:invert ${
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
@@ -129,8 +131,10 @@ export function Game({ settingsData }: GameProps) {
             rotationMode && !gameEnded
               ? {
                   transform: `rotate(${randomAngle}deg) scale(${imageScale})`,
+                  border: `1px solid black`
                 }
               : {}
+              
           }
         />
       </div>

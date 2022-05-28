@@ -22,3 +22,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#flagleImage {
+
+  border: 2px solid black;
+  /* -webkit-filter: invert(1);
+  filter: invert(1); */
+}
+

@@ -1,2 +1,13 @@
+#unneeded folders
 public/old_images/
+old_stuff/
+public/sounds/old_sounds/
+
+# node js dependancies
 node_modules/
+
+# vercel app 
+.vercel
+
+# build folders
+build/

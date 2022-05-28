@@ -7,3 +7,5 @@
 [ ] - Random picture of a city/monument, have to guess geogrpahically 
 [ ] - Country codes/airport codes
 [ ] - Keep country outlines, add as an addtional choice when olaying game
+[ ] - Add reset button to clear answers
+[ ] - Dark/light theme on main homepage - toast on changing theme
