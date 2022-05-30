@@ -1,9 +1,8 @@
-# Flagle: A Wordle inspired web-app but with flags from around the world #
+# Flagle 🌎: A Wordle inspired web-app but with flags from around the world #
 
 [![React](https://badges.aleen42.com/src/react.svg)](https://github.com/amckenna41/flagle)
 [![Platforms](https://img.shields.io/badge/platforms-linux%2C%20macOS%2C%20Windows-green)](https://pypi.org/project/pySAR/)
-[![Build](https://img.shields.io/github/workflow/status/amckenna41/flagle/)](https://github.com/amckenna41/flagle/actions)
-
+[![Build](https://img.shields.io/github/workflow/status/amckenna41/flagle/flagle)](https://github.com/amckenna41/flagle/actions/workflows/workflow.yml)
 [![CircleCI](https://circleci.com/gh/amckenna41/flagle.svg?style=svg&circle-token=d860bb64668be19d44f106841b80eb47a8b7e7e8)](https://app.circleci.com/pipelines/github/amckenna41/flagle)
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 [![Issues](https://img.shields.io/github/issues/amckenna41/flagle)](https://github.com/amckenna41/flagle/issues)
@@ -27,11 +26,10 @@ Table of Contents
 
 Introduction
 ------------
-
-Flagle is a daily flag guessing game, inspired from @teuteuf Worldle based game. Every day a new World flag will appear, be it one of a country, territory or city. You have 5 guesses to get the correct flag, after each guess if it's not right you will be pointed to the direction and distance of the correct place in kilometres. Guess the correct flag and share with your friends, maintaining a streak of daily correct guesses.
+Flagle is a daily flag guessing game, inspired from [@teuteuf][teuteuf]'s Worldle based game. Every day a new World flag will appear, be it one of a country, territory or city. You have 5 guesses to get the correct flag, after each guess if it's not right you will be pointed to the direction and distance of the correct place in kilometres. Guess the correct flag and share with your friends, maintaining a streak of daily correct guesses.
 
 <p align="center">
-<img src="images/flagleHomepage.png" alt="homepage" width="100%" height="325"/>
+<img src="images/flagleHomepage.png" alt="homepage" width="100%" height="100%"/>
 </p>
 
 
@@ -52,7 +50,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Directory Folders
 -----------------
 
-* `/public` - contains static files such as index. html, javascript library files, images, and other assets, etc.
+* `/public` - contains static files such as index.html, javascript library files, images, and other assets, etc.
 * `/src` - source code for react app.
 * `/scripts` - scripts for getting various country and subdivision flags.
 * `/images` - images used in repo.
@@ -78,7 +76,16 @@ If you have any questions or feedback, please contact amckenna41@qub.ac.uk or vi
 
 References
 ----------
-\[1\]: Countries with long/lat => https://developers.google.com/public-data/docs/canonical/countries_csv
-\[2\]: French country names => https://fr.wikipedia.org/wiki/ISO_3166
-\[3\]: Country images => https://github.com/djaiss/mapsicon
-\[4\]: Fixed images => http://www.amcharts.com/svg-maps/
+\[1\]: Countries with long/lat => https://developers.google.com/public-data/docs/canonical/countries_csv <br>
+\[2\]: Country ISO_3166-2 Codes => https://en.wikipedia.org/wiki/ISO_3166-2 <br>
+\[3\]: French Country ISO_3166-2 Codes => https://fr.wikipedia.org/wiki/ISO_3166 <br>
+\[4\]: Country images => https://github.com/djaiss/mapsicon <br>
+\[5\]: Fixed images => http://www.amcharts.com/svg-maps/ <br>
+\[6\]: Flag Icons => https://github.com/lipis/flag-icons <br>
+\[7\]: Country Subdivision Flag Icons => https://en.wikipedia.org/wiki/Flags_of_country_subdivisions <br>
+\[8\]: Other Country Subdivision Flag Icons => https://en.wikipedia.org/wiki/List_of_COUNTRY_NAME_flags
+
+
+[Back to top](#TOP)
+
+[teuteuf]: https://twitter.com/teuteuf
