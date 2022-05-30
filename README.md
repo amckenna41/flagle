@@ -2,7 +2,7 @@
 
 [![React](https://badges.aleen42.com/src/react.svg)](https://github.com/amckenna41/flagle)
 [![Platforms](https://img.shields.io/badge/platforms-linux%2C%20macOS%2C%20Windows-green)](https://pypi.org/project/pySAR/)
-[![Build](https://img.shields.io/github/workflow/status/amckenna41/flagle/flagle)](https://github.com/amckenna41/flagle/actions/workflows/workflow.yml)
+[![Build](https://img.shields.io/github/workflow/status/amckenna41/flagle/flagle)](https://github.com/amckenna41/flagle/actions)
 [![CircleCI](https://circleci.com/gh/amckenna41/flagle.svg?style=svg&circle-token=d860bb64668be19d44f106841b80eb47a8b7e7e8)](https://app.circleci.com/pipelines/github/amckenna41/flagle)
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 [![Issues](https://img.shields.io/github/issues/amckenna41/flagle)](https://github.com/amckenna41/flagle/issues)
