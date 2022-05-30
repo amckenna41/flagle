@@ -29,7 +29,7 @@ Introduction
 Flagle is a daily flag guessing game, inspired from [@teuteuf][teuteuf]'s Worldle based game. Every day a new World flag will appear, be it one of a country, territory or city. You have 5 guesses to get the correct flag, after each guess if it's not right you will be pointed to the direction and distance of the correct place in kilometres. Guess the correct flag and share with your friends, maintaining a streak of daily correct guesses.
 
 <p align="center">
-<img src="images/flagleHomepage.png" alt="homepage" width="100%" height="100%"/>
+<img src="images/flagleHomepage.png" alt="homepage" width="50%" height="40%"/>
 </p>
 
 
