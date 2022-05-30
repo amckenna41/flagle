@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 [![Issues](https://img.shields.io/github/issues/amckenna41/flagle)](https://github.com/amckenna41/flagle/issues)
 [![Size](https://img.shields.io/github/repo-size/amckenna41/flagle)](https://github.com/amckenna41/flagle)
-[![Commits](https://img.shields.io/github/commit-activity/w/amckenna41/flagle)](https://github.com/flagle)
+[![Commits](https://img.shields.io/github/commit-activity/w/amckenna41/flagle)](https://github.com/amckenna41/flagle)
 
 Play Flagle here: https://flagle.vercel.app/ !
 
